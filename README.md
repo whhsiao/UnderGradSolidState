@@ -7,6 +7,18 @@ Last year I got the chance grading the undegrad solid state physics at the Unive
 ![plotting the density of states](https://github.com/whhsiao/UnderGradSolidState/blob/master/PlotOfDos.png)
 
 ### Effective mass of Kronig-Penney model
+The Kronig-Penney model is a single-particle quantum mechanical problem that gives rise to the band structure. In a word, it describes a single quantum particle running in a periodic potential profile. Usually the potential is modeled by an array of Dirac delta function. Details can be found in the following Wiki page.
+
+<https://en.wikipedia.org/wiki/Particle_in_a_one-dimensional_lattice>
+
+To solve the energy, very often we have to solve a transcendental equation. In this case it's the following
+
+
+![energy equation for Kronig Penney](https://github.com/whhsiao/UnderGradSolidState/blob/master/KronigPenneyEqn.png)
+
+![inverse of meff](https://github.com/whhsiao/UnderGradSolidState/blob/master/meff.png)
+
+
 
 ![plotting the inverse of meff](https://github.com/whhsiao/UnderGradSolidState/blob/master/PlotOfMeff.png)
 
