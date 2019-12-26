@@ -3,8 +3,27 @@ Last year I got the chance grading the undegrad solid state physics at the Unive
 
 
 ### Density of States of simple tight-binding model
+One of the fundamental feature of quantum physics is that a system cannot possess arbitrary energy. Given proper quantization conditions, a system can only take specific values of energy. Conversely, we can also quantify the number of the states (per unit volume) within a range of energy. This is the notion of density of states. Formally, it is given by the following equation
+
+![Equation of Density of State](https://github.com/whhsiao/UnderGradSolidState/blob/master/densityOfState.png)
+
+where the sum is taken over allowed energy levels. In the notebook we plot the density of states for a 2-dimensional lattice tight-binding model. For this particular model, the sum over nu can be replaced by a integral over Brillouin zone. More explicitly,
+
+![integral representation of density of state](https://github.com/whhsiao/UnderGradSolidState/blob/master/ExDOS.png)
+
+To perform the integral involving Dirac delta function, we use the following approximation sequence. 
+
+
+![Dirac delta function](https://github.com/whhsiao/UnderGradSolidState/blob/master/DeltaMeasure.png)
+
+Schematically, we use the notebook to plot 
+
+![the integral we plot](https://github.com/whhsiao/UnderGradSolidState/blob/master/NumerIntegral.png)
+
+The plot here is generated with epsilon = 0.01
 
 ![plotting the density of states](https://github.com/whhsiao/UnderGradSolidState/blob/master/PlotOfDos.png)
+
 
 ### Effective mass of Kronig-Penney model
 The Kronig-Penney model is a single-particle quantum mechanical problem that gives rise to the band structure. In a word, it describes a single quantum particle running in a periodic potential profile. Usually the potential is modeled by an array of Dirac delta function. Details can be found in the following Wiki page.
