@@ -55,5 +55,8 @@ Solving these equations numerically and plugging the solutions into the expressi
 
 ### Chern number of Qi-Wu-Zhang model
 
+Chern number is a quantity that characterizes phases of insulators. In the context of material science insulators are considered boring. However, they can be boring in different manners. Since the inception of the era of topological materials, scientists strive to look for those insulators that are boring in some non-trivial ways. One of the indicator is the Chern number of an insulator model. 
+
+In this question, we consider the famous Qi-Wu-Zhang model and compute the Chern number as a function of chemical potential.
 
 ![plotting the Chern number ](https://github.com/whhsiao/UnderGradSolidState/blob/master/PlotOfChern.png)
