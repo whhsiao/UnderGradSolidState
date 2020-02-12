@@ -58,5 +58,10 @@ Solving these equations numerically and plugging the solutions into the expressi
 Chern number is a quantity that characterizes phases of insulators. In the context of material science insulators are considered boring. However, they can be boring in different manners. Since the inception of the era of topological materials, scientists strive to look for those insulators that are boring in some non-trivial ways. One of the indicator is the Chern number of an insulator model. 
 
 In this question, we consider the famous Qi-Wu-Zhang model and compute the Chern number as a function of chemical potential.
+We refer the readers to the original paper for the detail of the model. 
+
+https://journals.aps.org/prb/abstract/10.1103/PhysRevB.74.085308
+
+The Chern number of a band insulator is a type of winding number defined for the model over the Brillouin zone. There is a huge amount of literature and we are not presenting all the knowledge, including the explicit formula, here. However, I would like to emphasize the advantage of an integer-valued topological quantity is that it's easy to tell if the computation is correct. In particular, in this model, the Chern number can only take values from {0,-1,1}. The result is plotted in the below.
 
 ![plotting the Chern number ](https://github.com/whhsiao/UnderGradSolidState/blob/master/PlotOfChern.png)
